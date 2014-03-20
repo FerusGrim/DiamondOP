@@ -1,0 +1,14 @@
+name: DiamondOP
+main: io.github.ferusgrim.DiamondOP.DiamondOP
+website: ferusgrim.github.io
+version: 1.0
+author: FerusGrim
+description: Ensure your diamond pickaxes never take damage again!
+commands:
+  diamondop:
+    description: Commands for DiamondOP
+    usage: /diamondop
+permissions:
+    diamondop.set:
+        description: Allows the player to turn DiamondOP on/off.
+        default: op
